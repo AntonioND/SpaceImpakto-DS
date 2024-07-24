@@ -6488,7 +6488,7 @@ void Engine::LoadHiScore()
 //--------------------------------------
 void Engine::PlayGame()
 {
-  
+	defaultExceptionHandler();
 	
 	
 	InitHardware();
